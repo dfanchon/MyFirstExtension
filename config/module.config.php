@@ -22,7 +22,7 @@ return array(
         'myblockname' => array(
             'controller' => 'MyExtension\\Blocks\\Controller\\Myblock',
             'maxlifeTime' => 60,
-            'definitionFile' => realpath(__DIR__ . "/blocks/") . '/myblockname.json'
+            'definitionFile' => realpath(__DIR__ . "/blocks/") . '/myblock.json'
         )
     ),
 );
