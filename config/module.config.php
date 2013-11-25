@@ -7,7 +7,7 @@ return array(
     ),
     'service_manager' => array(
         'invokables' => array(
-            'MyService' => 'Hosting\\Service\\MyService',
+            'MyService' => 'MyExtension\\Service\\MyService',
         )
     ),
     'templates' => array(
@@ -20,7 +20,7 @@ return array(
     ),
     'blocksDefinition' => array(
         'myblockname' => array(
-            'controller' => 'Hosting\\Blocks\\Controller\\MyBlockName',
+            'controller' => 'MyExtension\\Blocks\\Controller\\MyBlockName',
             'maxlifeTime' => 60,
             'definitionFile' => realpath(__DIR__ . "/blocks/") . '/myblockname.json'
         )
