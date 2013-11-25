@@ -15,7 +15,7 @@ return array(
             'Myextension' => realpath(__DIR__ . '/../templates')
         ),
         'overrideThemes' => array(
-            'default' => realpath(__DIR__ . '/../theme-override/default')
+            'default' => realpath(__DIR__ . '/../theme/default')
         )
     ),
     'blocksDefinition' => array(
