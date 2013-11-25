@@ -2,7 +2,7 @@
 return array(
     'controllers' => array(
         'invokables' => array(
-            'Rubedo\\Blocks\\Controller\\MyBlockName' => 'MyExtension\\Blocks\\Controller\\MyBlockController'
+            'MyExtension\\Blocks\\Controller\\MyBlockName' => 'MyExtension\\Blocks\\Controller\\MyBlockController'
         )
     ),
     'service_manager' => array(
@@ -19,7 +19,7 @@ return array(
         )
     ),
     'blocksDefinition' => array(
-        'redirector' => array(
+        'myblockname' => array(
             'controller' => 'Hosting\\Blocks\\Controller\\MyBlockName',
             'maxlifeTime' => 60,
             'definitionFile' => realpath(__DIR__ . "/blocks/") . '/myblockname.json'
