@@ -2,12 +2,12 @@
 return array(
     'controllers' => array(
         'invokables' => array(
-            'Myextension\\Blocks\\Controller\\MyblockName' => 'MyExtension\\Blocks\\Controller\\MyblockController'
+            'Myextension\\Blocks\\Controller\\Myblock' => 'MyExtension\\Blocks\\Controller\\MyblockController'
         )
     ),
     'service_manager' => array(
         'invokables' => array(
-            'Myservice' => 'MyExtension\\Service\\Myservice',
+            'Myservice' => 'Myextension\\Service\\Myservice',
         )
     ),
     'templates' => array(
@@ -15,7 +15,7 @@ return array(
             'Myextension' => realpath(__DIR__ . '/../templates')
         ),
         'overrideThemes' => array(
-            'default' => realpath(__DIR__ . '/../theme/default')
+            'default' => realpath(__DIR__ . '/../theme-override/default')
         )
     ),
     'blocksDefinition' => array(
