@@ -1,0 +1,23 @@
+{
+	"type":"MyBlockNAme",
+	"description":"",
+	"configBasique":{
+		"title":"MyBlockName",
+		"bType":"myblockname",
+		"flex":1,
+		"champsConfig":{
+			"simple":[
+
+			],
+			"avance":[
+
+			]
+		},
+		"configBloc":{
+
+		}
+	},
+	"category":"#ext-gen1277#",
+	"bType":"myblockname",
+	"id":"514ae0c5c0e051ac0d555554"
+}

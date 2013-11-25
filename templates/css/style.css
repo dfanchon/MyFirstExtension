@@ -1,0 +1,16 @@
+
+/* get all your styles here
+===========================*/
+      body {
+        padding-top: 0px;
+        padding-bottom: 0px;
+		background:#F7F7F7;
+		font-size:14px;
+		font-family: 'Montserrat', sans-serif;
+      }
+      
+      .mycssclass {
+		background:url("/theme/default/ns-MyExtension/images/logo.png") center bottom no-repeat fixed;
+      }
+	  
+

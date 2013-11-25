@@ -1,0 +1,16 @@
+{% extends "@Root/page.html.twig" %}
+
+    
+    {% block pageStyle %}
+    <!-- Le styles -->
+    <link href="{{staticUrl('/theme/'~theme~'/ns-MyExtension/css/style.css')}}" rel="stylesheet">
+    
+    {% for sheet in css %}
+    <link href="{{sheet}}" rel="stylesheet" />
+    {% endfor %}
+    
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    		<![endif]-->
+    {% endblock %} 
