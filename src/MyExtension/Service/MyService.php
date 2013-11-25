@@ -1,5 +1,5 @@
 <?php
-namespace MyExtension\Service;
+namespace Myextension\Service;
 use Rubedo\Update\Install;
 use Rubedo\Collection\AbstractCollection;
 
