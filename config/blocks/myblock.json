@@ -1,9 +1,9 @@
 {
-	"type":"MyBlockNAme",
+	"type":"Myblock",
 	"description":"",
 	"configBasique":{
-		"title":"MyBlockName",
-		"bType":"myblockname",
+		"title":"Myblock",
+		"bType":"myblock",
 		"flex":1,
 		"champsConfig":{
 			"simple":[
@@ -18,6 +18,6 @@
 		}
 	},
 	"category":"#ext-gen1277#",
-	"bType":"myblockname",
+	"bType":"myblock",
 	"id":"514ae0c5c0e051ac0d555554"
 }

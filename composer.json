@@ -1,9 +1,9 @@
 {
-    "name": "dfanchon/Myfirstextension",
+    "name": "dfanchon/Myextension",
     "require": {
         "php": ">=5.3.0"
     },
     "autoload": {
-        "classmap": ["src/MyExtension"]
+        "classmap": ["src/Myextension"]
     }
 }

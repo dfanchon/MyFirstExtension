@@ -1,2 +1,2 @@
 <?php
-require_once __DIR__ . '/src/MyExtension/Module.php';
+require_once __DIR__ . '/src/Myextension/Module.php';
