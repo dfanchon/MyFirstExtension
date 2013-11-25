@@ -29,7 +29,7 @@ use Rubedo\Blocks\Controller\AbstractController;
  * @category Rubedo
  * @package Rubedo
  */
-class MyBlockController extends AbstractController
+class MyblockController extends AbstractController
 {
 
     public function indexAction ()
