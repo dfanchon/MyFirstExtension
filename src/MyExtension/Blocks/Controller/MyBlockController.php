@@ -21,6 +21,7 @@ use Rubedo\Collection\AbstractCollection;
 use Zend\Debug\Debug;
 use Zend\View\Model\JsonModel;
 use Zend\Json\Json;
+use Rubedo\Blocks\Controller\AbstractController;
 
 /**
  *
@@ -28,7 +29,7 @@ use Zend\Json\Json;
  * @category Rubedo
  * @package Rubedo
  */
-class MyBlockController extends \Rubedo\Blocks\Controller\AbstractController
+class MyBlockController extends AbstractController
 {
 
     public function indexAction ()
