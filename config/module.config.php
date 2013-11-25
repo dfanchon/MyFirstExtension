@@ -2,7 +2,7 @@
 return array(
     'controllers' => array(
         'invokables' => array(
-            'Myextension\\Blocks\\Controller\\Myblock' => 'MyExtension\\Blocks\\Controller\\MyblockController'
+            'Myextension\\Blocks\\Controller\\Myblock' => 'Myextension\\Blocks\\Controller\\MyblockController'
         )
     ),
     'service_manager' => array(
