@@ -1,23 +1,49 @@
 {
+	// title of the block as displayed in the block list in BO
 	"type":"Myblock",
-	"description":"",
+	// free description
+	"description":"My description",
 	"configBasique":{
+		// must be the same title as earlier
 		"title":"Myblock",
+		// block type (used for controller resolution)
 		"bType":"myblock",
 		"flex":1,
 		"champsConfig":{
+			// simple configuration tab
 			"simple":[
+			   {	
+					// title of the fieldset inside the tab
+					"categorie":"Settings",
+					// fields list
+					"champs":[
+						{
+							// type is the class name of the Ext JS 4.2.x, for more information please visit http://docs.sencha.com
+							"type":"Ext.form.field.Text",
+							"config":{
+								"fieldLabel":"Text",
+								"name":"mytext",
+                                "allowBlank":false
+							}
+						}
 
+					]
+				}
 			],
+			// advanced configuration tab
 			"avance":[
 
 			]
 		},
+		// initial config of the block, can be used to set up default values for the config fields
 		"configBloc":{
-
+			"mytext" : "THE BEST CMS EVER ?"
 		}
 	},
+	// category is used to group blocks in that same list, you can pick an existing one or use a new one
 	"category":"#ext-gen1277#",
+	// same block type as ealier
 	"bType":"myblock",
+	// is the MongoId of that block type, it must be unique
 	"id":"514ae0c5c0e051ac0d555999"
 }

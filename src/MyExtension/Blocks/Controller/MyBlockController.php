@@ -31,6 +31,8 @@ class MyblockController extends AbstractController
         $css = array(
         );
         $output = $this->params()->fromQuery();
+        $blockConfig=$this->params()->fromQuery("block-config", array());
+        $output['mytext'] = $blockConfig['mytext'];
         return $this->_sendResponse($output, $template, $css, $js);
     }
      

@@ -20,7 +20,7 @@ return array(
     ),
         
     /**
-     * Your template namespace and theme overrides
+     * Your template namespace and theme override
      */
     'templates' => array(
         'namespaces' => array(
