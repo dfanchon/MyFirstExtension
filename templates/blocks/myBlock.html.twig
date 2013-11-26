@@ -1,9 +1,19 @@
+{# your block template should always extend the generic one #}
 {% extends "@Root/block.html.twig" %} 
 
 {% block mainContent %}
 
-<p class="mycssclass">GOOD NEWS EVERYONE !</p>
+{# Place your own twig code inside the mainContent block tag #}
 
-<img src="{{ staticUrl('/theme/'~theme~'/ns-Myextension/images/logo.png') }}">
+<ul class="ch-grid" class="hidden">   
+    <li>
+        <div class="ch-item ch-img-1">
+            <div class="ch-info">
+                <h3>The BEST CMS Ever ?</h3>
+                <p>by WebTales <a href="#" class="clikme">View the website</a></p>
+            </div>
+        </div>
+    </li>
+</ul>
 					
 {% endblock %}

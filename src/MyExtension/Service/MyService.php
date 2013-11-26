@@ -1,4 +1,8 @@
 <?php
+/**
+ * Extend any Rubedo Service or create your own
+ */
+
 namespace Myextension\Service;
 use Rubedo\Update\Install;
 

@@ -1,7 +1,6 @@
 /**
- * Created by admin on 18/11/13.
+ * Your own javascript. JQuery is natively activated.
  */
-jQuery("#specialTOSCheck").click(function(){
-    jQuery(".myclass").attr("disabled",!jQuery("#specialTOSCheck").is(":checked"))
-
+jQuery(".clikme").click(function(){
+    window.open("http://www.rubedo-project.org");
 });
